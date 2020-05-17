@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+.header,
+.footer,
+div[class^='left'],
+div[class^='center'],
+div[class^='right'],
+.blogpost {
+  padding: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.header {
+  background: Aquamarine;
+}
+
+div[class^='left'] {
+  background: Bisque;
+}
+
+div[class^='center']{
+  background: green;
+}
+
+div[class^='right'] {
+  background: red;
+}
+
+.blogpost {
+  background: orange;
+}
+
+.footer {
+  background: blue;
+  color: white;
+}

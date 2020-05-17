@@ -1,0 +1,26 @@
+.blogposts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blogpost {
+  width: calc(100% / 2);
+}
+
+@media (min-width: 600px) {
+  .blogpost {
+    width: calc(100% / 3);
+  }
+}
+
+@media (min-width: 800px) {
+  .blogpost {
+    width: calc(100% / 4);
+  }
+}
+
+@media (min-width: 1000px) {
+  .blogpost {
+    width: calc(100% / 5);
+  }
+}
