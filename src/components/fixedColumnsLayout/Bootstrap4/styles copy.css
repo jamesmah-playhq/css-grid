@@ -1,12 +1,4 @@
-.row {
-  display: flex;
-}
-
-.row > * {
-  flex-shrink: 0;
-}
-
-.container-left {
+.left {
   width: 25%;
 }
 
@@ -16,4 +8,8 @@
 
 .right {
   width: 25%;
+}
+
+.row {
+  display: flex;
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import './styles.css';
 
 const App = () => (
-  <>
+  <div class="container">
     <div class="header">Header</div>
     <div class="blogposts">
       <div class="blogpost">Blog Post 1</div>
@@ -14,7 +14,7 @@ const App = () => (
       <div class="blogpost">Blog Post 7</div>
     </div>
     <div class="footer">Footer</div>
-  </>
+  </div>
 )
 
 export default App;

@@ -1,14 +1,16 @@
 .blogposts {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1rem;
   padding: 1rem 0;
+  /* grid-auto-flow: dense; */
 }
 
-.blogpost:nth-of-type(2) {
-  grid-column: span 3;
-}
-
+.blogpost:nth-of-type(2),
 .blogpost:nth-of-type(3) {
   grid-column: span 3;
+}
+
+.blogpost:nth-of-type(5) {
+  grid-column: span 2;
 }
