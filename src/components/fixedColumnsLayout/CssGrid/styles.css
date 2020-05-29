@@ -1,15 +1,6 @@
-.left {
-
-}
-
-.center {
-  
-}
-
-.right {
-
-}
-
 .row {
-
+  display: grid;
+  grid-gap: 10px;
+  padding: 10px 0;
+  grid-template-columns: 1fr 2fr 1fr;
 }

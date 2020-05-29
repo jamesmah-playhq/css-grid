@@ -2,18 +2,18 @@ import React from 'react';
 import './styles.css';
 
 const App = () => (
-  <div class="container">
-    <div class="header">Header</div>
-    <div class="blogposts">
-      <div class="blogpost">Blog Post 1</div>
-      <div class="blogpost">Blog Post 2</div>
-      <div class="blogpost">Blog Post 3</div>
-      <div class="blogpost">Blog Post 4</div>
-      <div class="blogpost">Blog Post 5</div>
-      <div class="blogpost">Blog Post 6</div>
-      <div class="blogpost">Blog Post 7</div>
+  <div className="container">
+    <div className="header">Header</div>
+    <div className="blogposts">
+      <div className="blogpost">Blog Post 1</div>
+      <div className="blogpost">Blog Post 2</div>
+      <div className="blogpost">Blog Post 3</div>
+      <div className="blogpost">Blog Post 4</div>
+      <div className="blogpost">Blog Post 5</div>
+      <div className="blogpost">Blog Post 6</div>
+      <div className="blogpost">Blog Post 7</div>
     </div>
-    <div class="footer">Footer</div>
+    <div className="footer">Footer</div>
   </div>
 )
 

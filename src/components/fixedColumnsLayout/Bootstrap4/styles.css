@@ -1,15 +1,15 @@
 .left {
-
+  width: 25%;
 }
 
 .center {
-  
+  width: 50%;
 }
 
 .right {
-
+  width: 25%;
 }
 
 .row {
-  
+  display: flex;
 }

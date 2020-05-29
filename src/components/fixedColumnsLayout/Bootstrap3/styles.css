@@ -1,15 +1,20 @@
 .left { 
-
+  float: left;
+  width: 25%;
 }
 
 .center {
-
+  float: left;
+  width: 50%;
 }
 
 .right {
-
+  float: left;
+  width: 25%;
 }
 
-.row {
-  
+.row::after {
+  clear: both;
+  display: table;
+  content: " ";
 }

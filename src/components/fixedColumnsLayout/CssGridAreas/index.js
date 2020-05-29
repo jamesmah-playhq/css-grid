@@ -2,14 +2,14 @@ import React from 'react';
 import './styles.css';
 
 const App = () => (
-  <div class="container">
-    <div class="header">Header</div>
-    <div class="left1">Left</div>
-    <div class="left2">Left</div>
-    <div class="left3">Left</div>
-    <div class="center">Center</div>
-    <div class="right">Right</div>
-    <div class="footer">Footer</div>
+  <div className="container">
+    <div className="header">Header</div>
+    <div className="left1">Left 1</div>
+    <div className="left2">Left 2</div>
+    <div className="left3">Left 3</div>
+    <div className="center">Center</div>
+    <div className="right">Right</div>
+    <div className="footer">Footer</div>
   </div>
 )
 
